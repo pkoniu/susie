@@ -1,6 +1,6 @@
 {
   "name": "susie",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Server-sent events with hapi",
   "main": "lib/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mtharrison/susie.git"
+    "url": "git+https://github.com/pkoniu/susie.git"
   },
   "engines": {
     "node": ">=4.0.0"
@@ -24,13 +24,13 @@
   "author": "Matt Harrison",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/mtharrison/susie/issues"
+    "url": "https://github.com/pkoniu/susie/issues"
   },
-  "homepage": "https://github.com/mtharrison/susie#readme",
+  "homepage": "https://github.com/pkoniu/susie#readme",
   "devDependencies": {
     "code": "2.x.x",
-    "hapi": "12.x.x",
     "inert": "3.x.x",
+    "hapi": "^17.2.0",
     "lab": "10.x.x"
   }
 }
